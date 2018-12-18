@@ -17,7 +17,7 @@ go get -u github.com/hyperledger/fabric-ca/cmd/...
 
 sudo cp $GOPATH/bin/*    /usr/local/bin
 
-cp $GOPATH/bin/*    $PWD/bin
+cp $GOPATH/bin/*    ${PWD}/../bin
 
 sudo rm $GOPATH/bin/* 
 
