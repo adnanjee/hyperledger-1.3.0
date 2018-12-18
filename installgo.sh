@@ -1,8 +1,16 @@
+#!/bin/bash
 
+### https://github.com/adnanjee/hyperledger-1.3.0.git ###
+
+### Download golang ###
+
+echo "Downloading golang"
 
 curl -o https://dl.google.com/go/go1.11.4.linux-amd64.tar.gz
 
 tar xvf go1.11.4.linux-amd64.tar.gz
+
+### Moving go to /usr/local ###
 
 sudo mv  go /usr/local
 
