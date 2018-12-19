@@ -9,9 +9,10 @@ If you already installed go language please pay attention to your already exist 
 It will not update your already set $GOPATH. To check run the following comman in terminal: echo $GOPATH
 This installaion assumes that your $GOPATH is parent directory of setup folder.
 
-1) First of all update the system
+1) Install ubuntu-prereq.sh
 2) Install docker
 3) Install GoLang
 4) Install Fabric Setup
 5) Install CA Server
 6) Install JQ utilities
+7) Install Development Environment
