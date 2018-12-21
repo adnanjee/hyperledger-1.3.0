@@ -50,11 +50,11 @@ sudo apt-get update
 
 # Install Git
 echo "# Installing Git"
-sudo apt-get install -y git
+sudo apt-get -y install git
 
 #install curl
-echo"# Installing curl"
-sudo apt-get install -y curl
+echo "# Installing curl"
+sudo apt-get -y install curl
 
 # Install nvm dependencies
 echo "# Installing nvm dependencies"
