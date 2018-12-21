@@ -10,8 +10,8 @@ It will not update your already set $GOPATH. To check run the following comman i
 This installaion assumes that your $GOPATH is parent directory of setup folder.
 
 1) Install ubuntu-prereq.sh
-2) Install docker
-3) Install GoLang
+2) Install GoLang
+3) Install docker
 4) Install Fabric Setup
 5) Install CA Server
 6) Install JQ utilities

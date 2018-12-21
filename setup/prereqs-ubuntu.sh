@@ -52,6 +52,10 @@ sudo apt-get update
 echo "# Installing Git"
 sudo apt-get install -y git
 
+#install curl
+echo"# Installing curl"
+sudo apt-get install -y curl
+
 # Install nvm dependencies
 echo "# Installing nvm dependencies"
 sudo apt-get -y install build-essential libssl-dev
