@@ -85,10 +85,8 @@ npm install npm@latest -g
 sudo apt-get -y install apt-transport-https ca-certificates
 
 #Installing Python
-echo "Installing Python 3.6"
-sudo add-apt-repository ppa:jonathonf/python-3.6
-sudo apt-get update
-sudo apt-get install python3.6
+echo "Installing Python"
+sudo apt-get -y install python
 
 
 # Print installation details for user
