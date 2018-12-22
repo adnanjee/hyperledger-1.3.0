@@ -9,10 +9,15 @@ If you already installed go language please pay attention to your already exist 
 It will not update your already set $GOPATH. To check run the following comman in terminal: echo $GOPATH
 This installaion assumes that your $GOPATH is parent directory of setup folder.
 
-1) Install ubuntu-prereq.sh
-2) Install GoLang
-3) Install docker
-4) Install Fabric Setup
-5) Install CA Server
-6) Install JQ utilities
-7) Install Development Environment
+1) open terminal and clone repository $ git clone https://github.com/adnanjee/hyperledger-1.3.0.git
+2) $ cd hyperledger-1.3.0/setup
+3) $ chmod u+x *
+4) $ ./prereqs-ubuntu.sh
+5) $ ./installgo.sh 
+6) $ ./installdocker.sh
+4) $ ./fabric-setup.sh
+5) $ ./caserver-setup.sh
+6) $ ./jq.sh
+7) $ ./dev-environment.sh
+
+You fabric is ready in native environment. Fabric-Samples folder has all the scripts to run your business network on fabric.
