@@ -71,7 +71,8 @@ export NVM_DIR="${HOME}/.nvm"
 
 # Install node
 echo "# Installing nodeJS"
-nvm install --lts
+nvm install 8
+nvm use 8
 
 # Configure nvm to use version 6.9.5
 nvm use --lts
