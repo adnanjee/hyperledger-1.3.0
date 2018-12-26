@@ -77,10 +77,6 @@ nvm install --lts
 nvm use --lts
 nvm alias default 'lts/*'
 
-# Install the latest version of npm
-echo "# Installing npm"
-npm install npm@latest -g
-
 # Ensure that CA certificates are installed
 sudo apt-get -y install apt-transport-https ca-certificates
 
