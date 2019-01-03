@@ -74,10 +74,6 @@ echo "# Installing nodeJS"
 nvm install 8
 nvm use 8
 
-# Configure nvm to use version 6.9.5
-nvm use --lts
-nvm alias default 'lts/*'
-
 # Ensure that CA certificates are installed
 sudo apt-get -y install apt-transport-https ca-certificates
 
